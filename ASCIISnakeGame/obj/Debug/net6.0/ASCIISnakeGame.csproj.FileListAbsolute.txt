@@ -1,0 +1,14 @@
+C:\Users\elias\source\repos\ASCIISnakeGame\bin\Debug\net6.0\ASCIISnakeGame.exe
+C:\Users\elias\source\repos\ASCIISnakeGame\bin\Debug\net6.0\ASCIISnakeGame.deps.json
+C:\Users\elias\source\repos\ASCIISnakeGame\bin\Debug\net6.0\ASCIISnakeGame.runtimeconfig.json
+C:\Users\elias\source\repos\ASCIISnakeGame\bin\Debug\net6.0\ASCIISnakeGame.dll
+C:\Users\elias\source\repos\ASCIISnakeGame\bin\Debug\net6.0\ASCIISnakeGame.pdb
+C:\Users\elias\source\repos\ASCIISnakeGame\obj\Debug\net6.0\ASCIISnakeGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elias\source\repos\ASCIISnakeGame\obj\Debug\net6.0\ASCIISnakeGame.AssemblyInfoInputs.cache
+C:\Users\elias\source\repos\ASCIISnakeGame\obj\Debug\net6.0\ASCIISnakeGame.AssemblyInfo.cs
+C:\Users\elias\source\repos\ASCIISnakeGame\obj\Debug\net6.0\ASCIISnakeGame.csproj.CoreCompileInputs.cache
+C:\Users\elias\source\repos\ASCIISnakeGame\obj\Debug\net6.0\ASCIISnakeGame.dll
+C:\Users\elias\source\repos\ASCIISnakeGame\obj\Debug\net6.0\refint\ASCIISnakeGame.dll
+C:\Users\elias\source\repos\ASCIISnakeGame\obj\Debug\net6.0\ASCIISnakeGame.pdb
+C:\Users\elias\source\repos\ASCIISnakeGame\obj\Debug\net6.0\ASCIISnakeGame.genruntimeconfig.cache
+C:\Users\elias\source\repos\ASCIISnakeGame\obj\Debug\net6.0\ref\ASCIISnakeGame.dll

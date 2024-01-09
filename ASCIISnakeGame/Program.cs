@@ -1,4 +1,5 @@
 ﻿using ASCIISnake;
+using ASCIISnakeGame;
 using System;
 using System.Security.Cryptography;
 
@@ -8,7 +9,7 @@ namespace ASCIISnake
     {
         static void Main(string[] args)
         {
-            Movement.Keyinput();
+            Menu.GameMenu();
         }
     }
 }
