@@ -17,7 +17,24 @@
 | 11 |Muss |Funktional|Als Benutzer will ich, dass ich Äpfel einsammeln und diese immer wieder auftauchen, damit ich einen Highscore holen kann.|
 | 12 |Muss |Funktional|Als Benutzer will ich, dass die Schlange bei jedem eingesammelten Apfel um 1 Feld länger wird.|
 
+### Planen
 
+| US-№ | Datum           | Arbeitspaket  | Verantwortliche Person                       |
+| ---- | --------------- | ---- | ---------------------------------- |
+| -    | 17.11.2023           |Projekt wählen und Planung erstellen| Elias Spycher |
+| 1    | 24.11.2023           |Menu erstellen | Elias Spycher |
+| 2    | 24.11.2023           |Menu Navigation erstellen | Elias Spycher |
+| 3    | 01.12.2023           |Spielfeld erstellen| Elias Spycher |
+| 4    | 01.12.2023           |Navigation der Schlange erstellen  | Elias Spycher |
+| 5    | 01.12.2023           |Navigation des speziellen Modus erstellen  | Elias Spycher |
+| 6    | 01.12.2023           |Bedienung der Schlange durch Tasteneingaben erstellen  | Elias Spycher |
+| 7    | 08.12.2023           |ESC/Death Menu erstellen  | Elias Spycher |
+| 8    | 08.12.2023           |Bedienung des ESC/Death Menu erstellen| Elias Spycher |
+| 9    | 08.12.2023           |Kollision der Schlange mit Wand erstellen| Elias Spycher |
+| 10    | 15.12.2023           |Score nach dem Spiel anzeigen implementieren| Elias Spycher |
+| 11    | 15.12.2023           |Äpfel positionieren und Score zuweisen| Elias Spycher |
+| 12    | 15.12.2023           |Schlangenwachstum erstellen| Elias Spycher |
+| -    | 22.12.2023           |Portfolioeintrag schreiben| Elias Spycher |
 
 ### Testfälle
 
