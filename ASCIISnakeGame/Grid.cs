@@ -34,9 +34,9 @@ namespace ASCIISnake
                 applePlaced = false; // Setze den Apfel neu
             }
 
-            for (int i = 0; i < 11; i++)        //ChatGPT
+            for (int i = 0; i < 11; i++)        
             {
-                for (int j = 0; j < 11; j++)    //ChatGPT
+                for (int j = 0; j < 11; j++)    
                 {
                     if (i == snakex && j == snakey)
                     {
