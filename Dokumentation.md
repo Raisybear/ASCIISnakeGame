@@ -77,8 +77,12 @@
 | 18.8.3  |11.01.2023|OK|Elias Spycher|
 | 19.8.4  |11.01.2023|OK|Elias Spycher|
 | 20.9.1  |11.01.2023|OK|Elias Spycher|
-| 16.8.1  |11.01.2023|OK|Elias Spycher|
-| 16.8.1  |11.01.2023|OK|Elias Spycher|
-| 16.8.1  |11.01.2023|OK|Elias Spycher|
+| 21.10.1  |11.01.2023|OK|Elias Spycher|
+| 22.11.1  |11.01.2023|OK|Elias Spycher|
+| 23.11.2  |11.01.2023|OK|Elias Spycher|
+| 24.11.3  |11.01.2023|OK|Elias Spycher|
+| 25.12.1  |11.01.2023|NOK|Elias Spycher|
 
 ### Testbericht
+
+Es funktionieren alle Testfälle ausser der Letzte. Das Projekt konnte vollständig implemntiert werden ausser die Funktion, dass die Schlange länger wird bei jedem Apfel.
