@@ -17,6 +17,8 @@ namespace ASCIISnake
         static char direction = 'd';
         static bool GameOn = true;
 
+        int currentHighscore = Grid.Highscore;
+
         public static void Keyinput()
         {
             Grid.ASCIIgrid(Snakex, Snakey);
@@ -43,6 +45,14 @@ namespace ASCIISnake
                     else if (Input == ConsoleKey.D && direction != 'a')
                     {
                         direction = 'd';
+                    }
+                    else if (Input == ConsoleKey.Escape) 
+                    {
+                        Console.Clear();
+                        Console.WriteLine("Highscore:" + Grid.Highscore);
+                        System.Threading.Thread.Sleep(1500);
+                        Console.Clear();
+                        Menu.DeathMenu();
                     }
                 }
 
@@ -71,6 +81,7 @@ namespace ASCIISnake
                     direction = 'd';
                     GameOn = true;
                     Console.Clear();
+                    Console.WriteLine("Highscore:" + Grid.Highscore);
                     Console.WriteLine("Game Over!");
                     System.Threading.Thread.Sleep(1500);
                     Console.Clear();
@@ -109,6 +120,7 @@ namespace ASCIISnake
                 {
                     GameOn = false;
                     Console.WriteLine("Game Over! You hit the wall.");
+                    Console.WriteLine("Highscore:" + Grid.Highscore);
                 }
             }
             else

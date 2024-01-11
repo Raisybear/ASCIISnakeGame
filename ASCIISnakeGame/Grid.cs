@@ -13,6 +13,8 @@ namespace ASCIISnake
         public static int appleNumx;
         public static int appleNumy;
 
+        public static int Highscore { get; set; }
+
         public static void ASCIIgrid(int snakey, int snakex)
         {
             if (!applePlaced)
@@ -21,6 +23,15 @@ namespace ASCIISnake
                 appleNumx = myObject.Next(0, 11);
                 appleNumy = myObject.Next(0, 11);
                 applePlaced = true;
+            }
+
+            bool appleEaten = false;
+
+            if (snakex == appleNumx && snakey == appleNumy)
+            {
+                Highscore++;
+                appleEaten = true;
+                applePlaced = false; // Setze den Apfel neu
             }
 
             for (int i = 0; i < 11; i++)        //ChatGPT
@@ -44,12 +55,14 @@ namespace ASCIISnake
                         Console.Write("[ ]");   //Restliches wird mit Leeren Klammern gefüllt
                     }
 
-                    if (snakex == appleNumx && snakey == appleNumy)
-                    {
-                        applePlaced = false;
-                    }
+                    
                 }
                 Console.WriteLine();
+            }
+
+            if (appleEaten)
+            {
+                applePlaced = false;
             }
         }
     }

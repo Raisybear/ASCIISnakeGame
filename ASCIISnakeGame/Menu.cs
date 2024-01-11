@@ -17,6 +17,7 @@ namespace ASCIISnakeGame
         public static void GameMenu() 
         {           
             int selectedOption = 1; // Startoption
+            Grid.Highscore = 0;
 
             while (true)
             {
@@ -63,6 +64,7 @@ namespace ASCIISnakeGame
         public static void DeathMenu() 
         {
             int selectedOption = 1;
+            Grid.Highscore = 0;
 
             while (true)
             {
